@@ -1,0 +1,25 @@
+Do you know about guessing a number from 1 to 100 with 7 tries?
+
+One person picks a number, second is trying to guess it. 
+After each try, first person have to say is the picked number bigger of smaller then a number, 2nd person said.
+The trick is in equal division:
+Starts with 50 and each time guesses the median value from the range implied by the results of each round.
+Guessing: 50, 25, 13, 7, 4, 2, 1
+For example:
+
+Computer got a number to guess
+Try #1: 50
+Too much
+Try #2: 25
+Too much
+Try #3: 13
+Too much
+Try #4: 6
+Too less
+Try #5: 10
+Too much
+Try #6: 8
+You have guessed from 6 try
+
+
+White a program which will behave as person 1.
